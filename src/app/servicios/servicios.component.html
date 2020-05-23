@@ -1,0 +1,18 @@
+<table class= "table table-striped table-hover">
+
+    <thead class ="thead-dark">
+        <th>Aula</th>
+        <th>Nombre</th>
+        <th>Servidor</th>
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let Servicios of servicios">
+            <td>{{Servicios.aula}} </td>
+            <td>{{Servicios.nombre}} </td>
+            <td>{{Servicios.servidor}} </td>
+        </tr>
+    </tbody>
+
+</table>

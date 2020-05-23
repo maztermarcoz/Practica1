@@ -1,0 +1,19 @@
+<p>Precio en suscripciones</p>
+<table class= "table table-striped table-hover">
+
+    <thead class ="thead-dark">
+        <th>Tipo de suscripcion</th>
+        <th>Nombre</th>
+        <th>Precio</th>
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let Precio of precio">
+            <td>{{Precio.tipo}} </td>
+            <td>{{Precio.nombre}} </td>
+            <td>{{Precio.precio}} </td>
+        </tr>
+    </tbody>
+
+</table>

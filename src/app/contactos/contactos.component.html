@@ -1,0 +1,16 @@
+<table class= "table table-striped table-hover">
+
+    <thead class ="thead-dark">
+        <th>Id</th>
+        <th>Nombre</th>
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let Contactos of contactos">
+            <td>{{Contactos.id}} </td>
+            <td>{{Contactos.nombre}} </td>
+        </tr>
+    </tbody>
+
+</table>
